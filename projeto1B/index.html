@@ -1,80 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type=text/css href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>iHair | ESTILO E TRADIÇÃO</title>
+    <link rel="icon" href="assets/imgs/barba.png">
 
-    <title>i-Hair</title>
 </head>
 
 <body>
-
-
-    <div id="area-cabecalho">
-        <div id="area-logo">
-            <img src="assets/imgs/logo.png">
-        </div>
-
-        <div id="area-menu">
-            <a href="">Home</a>
-            <a href="">Barbearias</a>
-            <a href="">Quem Somos</a>
-            <a href="">Contato</a>
-
-        </div>
-    </div>
-
-    <section id="home" class="d-flex">
-        <div class="container align-self-center">
-
-            <div class="row">
-                <div class="col-md-12 capa">
-
-                    <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/imgs/carousel1.jpg" alt="">
-
-                            </div>
-
-                            </div>
-                        </div>
-                        <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
-                            <i class="fas fa-angle-left fa-3x"></i>
-                        </a>
-                        <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
-                            <i class="fas fa-angle-right fa-3x"></i>
-                        </a>
-                    </div>
-
-                </div>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="">
+                    <img src="assets/imgs/logo.png">
+                </a>
             </div>
 
-        </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Barbearias</a></li>
+                    <li><a href="#">Vantagens</a></li>
+                    <li><a href="#">Quem Somos</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Suporte</a></li>
+                    <li><a href="tela login/login.html">Login</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-agendar">
+                <a href="">
+                    <button>Download</button>
+                </a>
+            </div><!--btn-contato-->
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-do-site">
+                        <h1>ESTILO E TRADIÇÃO, SUA BARBA E CABELO MERECEM O MELHOR<span>.</span></h1>
+                        <p>Descubra a diversidade de barbearias e talentosos barbeiros em nosso aplicativo! Agende seu
+                            próximo corte com facilidade, escolhendo entre uma variedade de estilos e serviços. Sua
+                            imagem, suas escolhas, seu estilo - tudo na palma da sua mão com nosso app.</p>
+
+                        <div class="btn-agendar">
+                            <a href="">
+                                <button>Encontrar a melhor para você</button>
+                            </a>
+                        </div><!--btn-agendar-->
+                    </div><!--txt=topo-site-->
+
+
+                    <div class="img-topo-site">
+                        <img src="assets/imgs/topo-do-site.png">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo do site-->
+
+        <section class="vantagens">
+            <div class="interface">
+                <h2 class="titulo">VANTAGENS DO <span>IHAIR.</span></h2>
+                <div class="flex">
+                    <div class="vantagens-box">
+                        <img src="assets/imgs/box1.png">
+                        <h3>Conexões Estilosas</h3>
+                        <p>Ícone de duas mãos apertando em um aperto de mão estilizado, simbolizando a conexão entre
+                            cliente e barbearia.</p>
+                    </div>
+                    <div class="vantagens-box">
+                        <img src="assets/imgs/box2.png">
+                        <h3>Qualidade e Conveniência</h3>
+                        <p>Valorizamos a singularidade de cada cliente, oferecendo uma experiência de barbearia
+                            personalizada. Com nosso aplicativo, descubra a barbearia ideal que reflete seu estilo e
+                            personalidade.</p>
+                    </div>
+                    <div class="vantagens-box">
+                        <img src="assets/imgs/box3.png">
+                        <h3>Personalização de Estilo</h3>
+                        <p>Ícone de duas mãos apertando em um aperto de mão estilizado, simbolizando a conexão entre
+                            cliente e barbearia.</p>
+                    </div>
+                </div><!--flex-->
+            </div> <!--interface-->
+        </section> <!--vantagens-->
+
+        <section class="quem-somos">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="assets/imgs/foto.png.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>QUEM <span>SOMOS.</span></h2>
+                        <p>Somos a sua porta de entrada para uma experiência de barbearia personalizada e conveniente.
+                            Na nossa plataforma, conectamos você a uma variedade de estilos e profissionais
+                            qualificados, garantindo que cada corte de cabelo e barba seja uma expressão autêntica do
+                            seu estilo único. </p>
+                        <p>Nosso compromisso é com a excelência e a diversidade, valorizando a singularidade de cada
+                            cliente. Com uma equipe dedicada e um aplicativo intuitivo, estamos aqui para simplificar
+                            sua busca pela barbearia ideal, onde você pode confiar para realçar sua imagem e elevar sua
+                            confiança. Seja bem-vindo à nossa comunidade, onde o seu estilo ganha vida.</p>
+                        <div class="btn-social">
+                            <a href=""><button><i class="bi bi-instagram"></i></button></a>
+                            <a href=""><button><i class="bi bi-apple"></i></button></a>
+                            <a href=""><button><i class="bi bi-google-play"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+
+                </div>
+            </div><!--interface-->
+        </section><!--quem-somos-->
+
+        <section class="catalogo">
+            <div class="interface">
+                <h2 class="titulo">IDEIAS DE <span>CORTES.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(assets/imgs/catalogo.png);">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/imgs/catalogo.png);">
+                        <div class="overlay"></div>
+                    </div>
+                    <div class="img-port" style="background-image: url(assets/imgs/catalogo.png);">
+                        <div class="overlay"></div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo"><span>SUPORTE.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu Nome:" required>
+                    <input type="text" name="" id="" placeholder="Seu E-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu Celular:" required>
+                    <textarea name="" id="" placeholder="Sua Mensagem:" required></textarea>
+                    <div class="btn-enviar">
+                        <input type="submit" value="ENVIAR">
+                    </div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+    </main>
+
+    <footer>
+
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="assets/imgs/logo.png">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href=""><button><i class="bi bi-instagram"></i></button></a>
+                        <a href=""><button><i class="bi bi-apple"></i></button></a>
+                        <a href=""><button><i class="bi bi-google-play"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@ihair.com.br">contato@ihair.com.br</a>
+                </p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+
+    </footer>
     </section>
 
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+
 </body>
 
 </html>
